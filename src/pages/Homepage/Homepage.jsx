@@ -9,7 +9,7 @@ export default function Homepage() {
     const generateData = (source) => {
         source().then((data) => {
             setFlagData(data);
-        })
+        }).catch((err) => console.error(err));
     }
 
     useEffect(() => {
