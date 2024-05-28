@@ -1,10 +1,30 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     height: 100%;
-    padding: 20px;
-    display: grid;
+    padding: 40px;
     margin: 0px 20px 0px 20px;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.countrySearch {
+    width: 450px;
+    height: 20px;
+}
+
+header {
+    height: 30px;
+    padding: 5px;
+    box-shadow: 31px -17px 33px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgb(242, 245, 245);
+    text-align: center;
 }

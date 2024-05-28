@@ -1,6 +1,6 @@
-.card {
-    height: 100%;
-    width: 100%;
+.countryCard {
+    height: minmax(150px, 190px);
+    width: 130px;
     padding: 7px;
     border: 1px solid rgb(200, 200, 200);
     border-radius: 10px;
@@ -15,6 +15,7 @@
     height: 90px;
     width: 100px;
     object-fit: cover;
+    display: block;
 }
 
 p {
